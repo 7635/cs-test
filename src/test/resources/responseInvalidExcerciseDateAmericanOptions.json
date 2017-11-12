@@ -1,0 +1,23 @@
+{
+  "valid": false,
+  "errors": [
+    {
+      "index": 0,
+      "errors": [
+        {
+          "field": "multiple fields relation",
+          "error": "excerciseStartDate should be after tradeDate and before expiryDate"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "errors": [
+        {
+          "field": "multiple fields relation",
+          "error": "excerciseStartDate should be after tradeDate and before expiryDate"
+        }
+      ]
+    }
+  ]
+}

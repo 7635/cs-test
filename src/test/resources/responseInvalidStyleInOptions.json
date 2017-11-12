@@ -1,0 +1,14 @@
+{
+  "valid": false,
+  "errors": [
+    {
+      "index": 2,
+      "errors": [
+        {
+          "field": "multiple fields relation",
+          "error": "style should be AMERICAN or EUROPEAN"
+        }
+      ]
+    }
+  ]
+}

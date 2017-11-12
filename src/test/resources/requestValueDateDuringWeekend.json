@@ -1,0 +1,28 @@
+[
+  {
+    "customer":"PLUTO1",
+    "ccyPair":"EURUSD",
+    "type":"Spot",
+    "direction":"BUY",
+    "tradeDate":"2016-08-11",
+    "amount1":1000000.00,
+    "amount2":1120000.00,
+    "rate":1.12,
+    "valueDate":"2017-11-11",
+    "legalEntity":"CS Zurich",
+    "trader":"Johann Baumfiddler"
+  },
+  {
+    "customer":"PLUTO2",
+    "ccyPair":"EURUSD",
+    "type":"Forward",
+    "direction":"SELL",
+    "tradeDate":"2016-08-11",
+    "amount1":1000000.00,
+    "amount2":1120000.00,
+    "rate":1.12,
+    "valueDate":"2017-11-11",
+    "legalEntity":"CS Zurich",
+    "trader":"Johann Baumfiddler"
+  }
+]

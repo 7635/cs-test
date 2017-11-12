@@ -1,0 +1,14 @@
+{
+  "valid": false,
+  "errors": [
+    {
+      "index": 0,
+      "errors": [
+        {
+          "field": "legalEntity",
+          "error": "invalid legal entity"
+        }
+      ]
+    }
+  ]
+}

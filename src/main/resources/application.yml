@@ -1,0 +1,21 @@
+server.port: 8080
+
+logging.level:
+  org.springframework.web=DEBUG
+
+validation:
+
+  customers:
+    - PLUTO1
+    - PLUTO2
+
+  legalEntities:
+    - CS Zurich
+
+  optionsType: VanillaOption
+
+  americanStyle: AMERICAN
+
+  optionsStyles:
+    - AMERICAN
+    - EUROPEAN

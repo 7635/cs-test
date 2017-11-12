@@ -1,0 +1,31 @@
+{
+  "valid": false,
+  "errors": [
+    {
+      "index": 1,
+      "errors": [
+        {
+          "field": "ccyPair",
+          "error": "invalid ISO-4217 currency code in pair"
+        },
+        {
+          "field": "multiple fields relation",
+          "error": "valueDate cannot be before tradeDate"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "errors": [
+        {
+          "field": "legalEntity",
+          "error": "invalid legal entity"
+        },
+        {
+          "field": "customer",
+          "error": "invalid customer name"
+        }
+      ]
+    }
+  ]
+}

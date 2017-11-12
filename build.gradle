@@ -1,0 +1,56 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.8.RELEASE")
+    }
+}
+
+ext {
+    javaVersion = 1.8
+    appDefaultJvmArgs = ["-Xmx512m"]
+}
+
+apply from: 'libraries.gradle'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+jar {
+    baseName = 'coding-test'
+    version =  '1.0.0'
+}
+
+repositories {
+    mavenCentral()
+}
+test {
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.3.1'
+}
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web') {
+        exclude module: 'spring-boot-starter-tomcat'
+    }
+    compile ('org.springframework.boot:spring-boot-starter-jetty')
+
+    compile(libraries.lombok)
+    compile (libraries.jackson_jsr310)
+    compile(libraries.commonsLang)
+    compile(libraries.guava)
+    compile(libraries.hibernate_validator)
+    compile(libraries.commons_beanutils)
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('com.jayway.jsonpath:json-path')
+}
+

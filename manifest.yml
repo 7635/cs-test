@@ -1,0 +1,7 @@
+---
+applications:
+- name: coding-test
+  memory: 512M
+  instances: 1
+  host: localhost
+  path: build/libs/coding-test-1.0.0.jar

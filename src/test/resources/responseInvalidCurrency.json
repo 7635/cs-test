@@ -1,0 +1,57 @@
+{
+  "valid": false,
+  "errors": [
+    {
+      "index": 0,
+      "errors": [
+        {
+          "field": "ccyPair",
+          "error": "invalid ISO-4217 currency code in pair"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "errors": [
+        {
+          "field": "ccyPair",
+          "error": "invalid ISO-4217 currency code in pair"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "errors": [
+        {
+          "field": "ccyPair",
+          "error": "invalid ISO-4217 currency code in pair"
+        },
+        {
+          "field": "multiple fields relation",
+          "error": "premiumCcy must be valid currency code"
+        },
+        {
+          "field": "multiple fields relation",
+          "error": "payCcy must be valid currency code"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "errors": [
+        {
+          "field": "ccyPair",
+          "error": "invalid ISO-4217 currency code in pair"
+        },
+        {
+          "field": "multiple fields relation",
+          "error": "premiumCcy must be valid currency code"
+        },
+        {
+          "field": "multiple fields relation",
+          "error": "payCcy must be valid currency code"
+        }
+      ]
+    }
+  ]
+}
